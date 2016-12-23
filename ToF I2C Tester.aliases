@@ -1,8 +1,8 @@
 [My Computer]
-My Computer = "169.254.160.117"
+My Computer = "192.168.1.239"
 
-[NI-myRIO-1900-03035fe3]
-NI-myRIO-1900-03035fe3 = "192.168.43.40"
+[NI-myRIO-1900-03035fe3 192.168.43.40]
+NI-myRIO-1900-03035fe3 192.168.43.40 = "172.22.11.2"
 
 [Raspberry Pi 2 B]
 Raspberry Pi 2 B = "192.168.1.248"
