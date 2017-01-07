@@ -105,7 +105,6 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="ADS1015 Raw2Formatted Converter.vi" Type="VI" URL="../SubVIs/ADS1015 Raw2Formatted Converter.vi"/>
 			<Item Name="ChangeAddress.vi" Type="VI" URL="../SubVIs/ChangeAddress.vi"/>
 			<Item Name="Check ID Data.vi" Type="VI" URL="../SubVIs/Check ID Data.vi"/>
 			<Item Name="Definition.ctl" Type="VI" URL="../Type Defs/Definition.ctl"/>
