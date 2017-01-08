@@ -10,6 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Sensors" Type="Folder" URL="../SubVIs/Sensors">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Tools" Type="Folder" URL="../Tools">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -430,6 +433,10 @@ DirectoryIndex index.htm
 		<Item Name="ADS1015 Raw2Formatted Converter.vi" Type="VI" URL="../SubVIs/ADS1015 Raw2Formatted Converter.vi"/>
 		<Item Name="ADS1015.vi" Type="VI" URL="../ADS1015.vi"/>
 		<Item Name="I2C Playground.vi" Type="VI" URL="../Tools/I2C Playground.vi"/>
+		<Item Name="INA219 Config Commands.ctl" Type="VI" URL="../SubVIs/Sensors/Adafruit INA219/INA219 Config Commands.ctl"/>
+		<Item Name="INA219 Init &amp; Config.vi" Type="VI" URL="../SubVIs/Sensors/Adafruit INA219/INA219 Init &amp; Config.vi"/>
+		<Item Name="INA219 Measurements.ctl" Type="VI" URL="../SubVIs/Sensors/Adafruit INA219/INA219 Measurements.ctl"/>
+		<Item Name="INA219 Read Measurements.vi" Type="VI" URL="../SubVIs/Sensors/Adafruit INA219/INA219 Read Measurements.vi"/>
 		<Item Name="Laser Test Ground.vi" Type="VI" URL="../Tools/Laser Test Ground.vi"/>
 		<Item Name="Multiple ToFs State Machine.vi" Type="VI" URL="../Multiple ToFs State Machine.vi"/>
 		<Item Name="Multiple ToFs.vi" Type="VI" URL="../Multiple ToFs.vi"/>
@@ -558,6 +565,8 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="ChangeAddress.vi" Type="VI" URL="../SubVIs/ChangeAddress.vi"/>
 			<Item Name="Check ID Data.vi" Type="VI" URL="../SubVIs/Check ID Data.vi"/>
+			<Item Name="INA219 Config Options.ctl" Type="VI" URL="../SubVIs/Sensors/Adafruit INA219/INA219 Config Options.ctl"/>
+			<Item Name="INA219 Config2Code.vi" Type="VI" URL="../SubVIs/Sensors/Adafruit INA219/INA219 Config2Code.vi"/>
 			<Item Name="liblinxdevice.dll" Type="Document" URL="liblinxdevice.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
