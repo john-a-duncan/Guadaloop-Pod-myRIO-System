@@ -106,9 +106,17 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="BMP180 Config Options.ctl" Type="VI" URL="../Sensors/BMP180/BMP180 Config Options.ctl"/>
+			<Item Name="BMP180 Init.vi" Type="VI" URL="../Sensors/BMP180/BMP180 Init.vi"/>
+			<Item Name="BMP180 Pull Raw Measurement.vi" Type="VI" URL="../Sensors/BMP180/BMP180 Pull Raw Measurement.vi"/>
+			<Item Name="BMP180 Read.vi" Type="VI" URL="../Sensors/BMP180/BMP180 Read.vi"/>
 			<Item Name="ChangeAddress.vi" Type="VI" URL="../SubVIs/ChangeAddress.vi"/>
 			<Item Name="Check ID Data.vi" Type="VI" URL="../SubVIs/Check ID Data.vi"/>
 			<Item Name="Definition.ctl" Type="VI" URL="../Type Defs/Definition.ctl"/>
+			<Item Name="INA219 Config Options.ctl" Type="VI" URL="../Sensors/Adafruit INA219/INA219 Config Options.ctl"/>
+			<Item Name="INA219 Config2Code.vi" Type="VI" URL="../Sensors/Adafruit INA219/INA219 Config2Code.vi"/>
+			<Item Name="INA219 Init &amp; Config.vi" Type="VI" URL="../Sensors/Adafruit INA219/INA219 Init &amp; Config.vi"/>
+			<Item Name="INA219 Measurements.ctl" Type="VI" URL="../Sensors/Adafruit INA219/INA219 Measurements.ctl"/>
+			<Item Name="INA219 Read Measurements.vi" Type="VI" URL="../Sensors/Adafruit INA219/INA219 Read Measurements.vi"/>
 			<Item Name="liblinxdevice.dll" Type="Document" URL="liblinxdevice.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -431,9 +439,11 @@ DirectoryIndex index.htm
 		<Item Name="Sensors" Type="Folder" URL="../Sensors">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Tools" Type="Folder" URL="../Tools">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="ADS1015 Raw2Formatted Converter.vi" Type="VI" URL="../SubVIs/ADS1015 Raw2Formatted Converter.vi"/>
 		<Item Name="ADS1015.vi" Type="VI" URL="../ADS1015.vi"/>
-		<Item Name="Laser Test Ground.vi" Type="VI" URL="../Tools/Laser Test Ground.vi"/>
 		<Item Name="Multiple ToFs State Machine.vi" Type="VI" URL="../Multiple ToFs State Machine.vi"/>
 		<Item Name="Multiple ToFs.vi" Type="VI" URL="../Multiple ToFs.vi"/>
 		<Item Name="myRIO Main v2.vi" Type="VI" URL="../myRIO Main v2.vi"/>
@@ -545,6 +555,7 @@ DirectoryIndex index.htm
 				<Item Name="Ref Counter.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Ref Counter.vi"/>
 				<Item Name="Resource Manager Action Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Resource Manager Action Enum.ctl"/>
 				<Item Name="Scaled Value To Raw.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Scaled Value To Raw.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="System FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/System/typedefs/System FPGA Reference.ctl"/>
 				<Item Name="Timer IRQ Array.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/IRQ/typedefs/Timer IRQ Array.ctl"/>
 				<Item Name="Timer IRQ FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/IRQ/typedefs/Timer IRQ FPGA Reference.ctl"/>
@@ -561,6 +572,7 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="ChangeAddress.vi" Type="VI" URL="../SubVIs/ChangeAddress.vi"/>
 			<Item Name="Check ID Data.vi" Type="VI" URL="../SubVIs/Check ID Data.vi"/>
+			<Item Name="Definition.ctl" Type="VI" URL="../Type Defs/Definition.ctl"/>
 			<Item Name="liblinxdevice.dll" Type="Document" URL="liblinxdevice.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
