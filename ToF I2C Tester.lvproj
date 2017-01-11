@@ -106,9 +106,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="BMP180 Config Options.ctl" Type="VI" URL="../Sensors/BMP180/BMP180 Config Options.ctl"/>
-			<Item Name="BMP180 Init.vi" Type="VI" URL="../Sensors/BMP180/BMP180 Init.vi"/>
-			<Item Name="BMP180 Pull Raw Measurement.vi" Type="VI" URL="../Sensors/BMP180/BMP180 Pull Raw Measurement.vi"/>
-			<Item Name="BMP180 Read.vi" Type="VI" URL="../Sensors/BMP180/BMP180 Read.vi"/>
 			<Item Name="ChangeAddress.vi" Type="VI" URL="../SubVIs/ChangeAddress.vi"/>
 			<Item Name="Check ID Data.vi" Type="VI" URL="../SubVIs/Check ID Data.vi"/>
 			<Item Name="Definition.ctl" Type="VI" URL="../Type Defs/Definition.ctl"/>
@@ -125,6 +122,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Rising Edge (Windowed).vi" Type="VI" URL="../SubVIs/Rising Edge (Windowed).vi"/>
+			<Item Name="TMP007 Init.vi" Type="VI" URL="../Sensors/Adafruit TMP007/TMP007 Init.vi"/>
+			<Item Name="TMP007 Read.vi" Type="VI" URL="../Sensors/Adafruit TMP007/TMP007 Read.vi"/>
 			<Item Name="VL6180 GetDistance.vi" Type="VI" URL="../SubVIs/VL6180 GetDistance.vi"/>
 			<Item Name="VL6180 GetRegister.vi" Type="VI" URL="../SubVIs/VL6180 GetRegister.vi"/>
 			<Item Name="VL6180 ID Info.ctl" Type="VI" URL="../Type Defs/VL6180 ID Info.ctl"/>
