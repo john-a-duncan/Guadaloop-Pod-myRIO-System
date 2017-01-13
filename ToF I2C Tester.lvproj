@@ -13,7 +13,6 @@
 		<Item Name="Tools" Type="Folder" URL="../Tools">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Arduino Test.vi" Type="VI" URL="../Arduino Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI IRQ FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/IRQ/typedefs/AI IRQ FPGA Reference.ctl"/>
@@ -126,6 +125,7 @@
 			<Item Name="VL6180 GetRegister.vi" Type="VI" URL="../SubVIs/VL6180 GetRegister.vi"/>
 			<Item Name="VL6180 Init.vi" Type="VI" URL="../SubVIs/VL6180 Init.vi"/>
 			<Item Name="VL6180 SetRegister.vi" Type="VI" URL="../SubVIs/VL6180 SetRegister.vi"/>
+			<Item Name="VL6180X DEFS.ctl" Type="VI" URL="../Sensors/VL6180/VL6180X DEFS.ctl"/>
 			<Item Name="VL6180X DEFS.ctl" Type="VI" URL="../Type Defs/VL6180X DEFS.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -440,12 +440,11 @@ DirectoryIndex index.htm
 		<Item Name="Sensors" Type="Folder" URL="../Sensors">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Tools" Type="Folder" URL="../Tools">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="Type Defs" Type="Folder" URL="../Type Defs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="I2C Playground LINXorMYRIO I2C bug - SOLUTION.vi" Type="VI" URL="../Tools/I2C Playground LINXorMYRIO I2C bug - SOLUTION.vi"/>
+		<Item Name="I2C Playground LINXorMYRIO I2C bug.vi" Type="VI" URL="../Tools/I2C Playground LINXorMYRIO I2C bug.vi"/>
 		<Item Name="myRIO Main v2.vi" Type="VI" URL="../myRIO Main v2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -517,13 +516,11 @@ DirectoryIndex index.htm
 				<Item Name="myRIO v1.1 Open I2C.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/I2C/vis/myRIO v1.1 Open I2C.vi"/>
 				<Item Name="myRIO v1.1 Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/myRIO v1.1 Open.vi"/>
 				<Item Name="Named Mutex.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Named Mutex.ctl"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Reentrant Mutex.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Reentrant Mutex.ctl"/>
 				<Item Name="Ref Counter Action Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Ref Counter Action Enum.ctl"/>
 				<Item Name="Ref Counter.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Ref Counter.vi"/>
 				<Item Name="Resource Manager Action Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Resource Manager Action Enum.ctl"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="System FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/System/typedefs/System FPGA Reference.ctl"/>
 				<Item Name="Timer IRQ Array.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/IRQ/typedefs/Timer IRQ Array.ctl"/>
 				<Item Name="Timer IRQ FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/IRQ/typedefs/Timer IRQ FPGA Reference.ctl"/>
@@ -538,20 +535,13 @@ DirectoryIndex index.htm
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Definition.ctl" Type="VI" URL="../Type Defs/Definition.ctl"/>
 			<Item Name="liblinxdevice.dll" Type="Document" URL="liblinxdevice.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Rising Edge (Windowed).vi" Type="VI" URL="../SubVIs/Rising Edge (Windowed).vi"/>
-			<Item Name="VL6180 GetDistance.vi" Type="VI" URL="../SubVIs/VL6180 GetDistance.vi"/>
-			<Item Name="VL6180 GetRegister.vi" Type="VI" URL="../SubVIs/VL6180 GetRegister.vi"/>
-			<Item Name="VL6180 Init.vi" Type="VI" URL="../SubVIs/VL6180 Init.vi"/>
-			<Item Name="VL6180 SetRegister.vi" Type="VI" URL="../SubVIs/VL6180 SetRegister.vi"/>
-			<Item Name="VL6180X DEFS.ctl" Type="VI" URL="../Type Defs/VL6180X DEFS.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
