@@ -1,0 +1,14 @@
+
+avrdude_ard.exe: Version 6.0.1, compiled on Mar 30 2015 at 14:56:06
+                 Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
+                 Copyright (c) 2007-2009 Joerg Wunsch
+
+                 System wide configuration file is "avrdude_ard.conf"
+
+                 Using Port                    : COM10
+                 Using Programmer              : arduino
+                 Overriding Baud Rate          : 115200
+avrdude_ard.exe: ser_open(): can't set com-state for "\\.\COM10"
+
+avrdude_ard.exe done.  Thank you.
+
