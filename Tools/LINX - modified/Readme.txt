@@ -1,1 +1,0 @@
-Install in C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib
