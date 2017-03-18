@@ -107,9 +107,7 @@
 			</Item>
 			<Item Name="BMP180 Config Options.ctl" Type="VI" URL="../Sensors/BMP180/BMP180 Config Options.ctl"/>
 			<Item Name="Definition.ctl" Type="VI" URL="../Type Defs/Definition.ctl"/>
-			<Item Name="IMU Control.ctl" Type="VI" URL="../Sensors/Adafruit BNO055/IMU Control.ctl"/>
-			<Item Name="INA219 Config Options.ctl" Type="VI" URL="../Sensors/Adafruit INA219/INA219 Config Options.ctl"/>
-			<Item Name="INA219 Config2Code.vi" Type="VI" URL="../Sensors/Adafruit INA219/INA219 Config2Code.vi"/>
+			<Item Name="IMU Control.ctl" Type="VI" URL="../Sensors/IMU - Adafruit BNO055/IMU Control.ctl"/>
 			<Item Name="INA219 Init &amp; Config.vi" Type="VI" URL="../Sensors/Adafruit INA219/INA219 Init &amp; Config.vi"/>
 			<Item Name="INA219 Measurements.ctl" Type="VI" URL="../Sensors/Adafruit INA219/INA219 Measurements.ctl"/>
 			<Item Name="INA219 Read Measurements.vi" Type="VI" URL="../Sensors/Adafruit INA219/INA219 Read Measurements.vi"/>
@@ -545,7 +543,17 @@ DirectoryIndex index.htm
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="ADS1015 Init.vi" Type="VI" URL="../Sensors/Adafruit ADS1015/ADS1015 Init.vi"/>
+			<Item Name="ADS1015 Read.vi" Type="VI" URL="../Sensors/Adafruit ADS1015/ADS1015 Read.vi"/>
+			<Item Name="BMP180 Config Options.ctl" Type="VI" URL="../Sensors/BMP180/BMP180 Config Options.ctl"/>
+			<Item Name="BMP180 Init.vi" Type="VI" URL="../Sensors/BMP180/BMP180 Init.vi"/>
+			<Item Name="BMP180 Read.vi" Type="VI" URL="../Sensors/BMP180/BMP180 Read.vi"/>
+			<Item Name="Check ID Data.vi" Type="VI" URL="../Sensors/VL6180/Check ID Data.vi"/>
 			<Item Name="Definition.ctl" Type="VI" URL="../Type Defs/Definition.ctl"/>
+			<Item Name="IMU Control.ctl" Type="VI" URL="../Sensors/Adafruit BNO055/IMU Control.ctl"/>
+			<Item Name="INA219 Init &amp; Config.vi" Type="VI" URL="../Sensors/Adafruit INA219/INA219 Init &amp; Config.vi"/>
+			<Item Name="INA219 Measurements.ctl" Type="VI" URL="../Sensors/Adafruit INA219/INA219 Measurements.ctl"/>
+			<Item Name="INA219 Read Measurements.vi" Type="VI" URL="../Sensors/Adafruit INA219/INA219 Read Measurements.vi"/>
 			<Item Name="liblinxdevice.dll" Type="Document" URL="liblinxdevice.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -554,10 +562,17 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Rising Edge (Windowed).vi" Type="VI" URL="../SubVIs/Rising Edge (Windowed).vi"/>
+			<Item Name="TMP007 Init.vi" Type="VI" URL="../Sensors/Adafruit TMP007/TMP007 Init.vi"/>
+			<Item Name="TMP007 Read.vi" Type="VI" URL="../Sensors/Adafruit TMP007/TMP007 Read.vi"/>
+			<Item Name="VL6180 GetDistance.vi" Type="VI" URL="../Sensors/VL6180/VL6180 GetDistance.vi"/>
 			<Item Name="VL6180 GetDistance.vi" Type="VI" URL="../SubVIs/VL6180 GetDistance.vi"/>
 			<Item Name="VL6180 GetRegister.vi" Type="VI" URL="../SubVIs/VL6180 GetRegister.vi"/>
+			<Item Name="VL6180 Init.vi" Type="VI" URL="../Sensors/VL6180/VL6180 Init.vi"/>
 			<Item Name="VL6180 Init.vi" Type="VI" URL="../SubVIs/VL6180 Init.vi"/>
+			<Item Name="VL6180 Resource.ctl" Type="VI" URL="../Sensors/VL6180/VL6180 Resource.ctl"/>
 			<Item Name="VL6180 SetRegister.vi" Type="VI" URL="../SubVIs/VL6180 SetRegister.vi"/>
+			<Item Name="VL6180 states.ctl" Type="VI" URL="../Sensors/VL6180/VL6180 states.ctl"/>
+			<Item Name="VL6180X DEFS.ctl" Type="VI" URL="../Sensors/VL6180/VL6180X DEFS.ctl"/>
 			<Item Name="VL6180X DEFS.ctl" Type="VI" URL="../Type Defs/VL6180X DEFS.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
