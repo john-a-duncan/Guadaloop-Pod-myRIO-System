@@ -1,14 +1,11 @@
 Release AutoBot v1
 
 Done:
-- Auto load
-- 1 button demo (levitation)
-- actuation for iPad
-Note: Sensors not ready yet
-
-To Do:
 - Power sensor integration
 - Thermopile integration
+- Pressure Transducer integration
+
+To Do:
 - iPad UI update
 - Pod health update & make video for SpaceX
 - Communications heartbeat
