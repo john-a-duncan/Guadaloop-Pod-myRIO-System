@@ -1,4 +1,4 @@
-Release AutoBot v1
+Release AutoBot v1.1
 
 Done:
 - Power sensor integration
