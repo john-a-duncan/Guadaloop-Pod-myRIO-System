@@ -44,8 +44,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="HQ Main.vi" Type="VI" URL="../HQ Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="IMU Control.ctl" Type="VI" URL="../../I2C-ToF-Tester/Sensors/IMU - Adafruit BNO055/IMU Control.ctl"/>
-			<Item Name="PodHealth.ctl" Type="VI" URL="../../I2C-ToF-Tester/Type Defs/PodHealth.ctl"/>
+			<Item Name="IMU Control.ctl" Type="VI" URL="../OLD/Sensors/IMU - Adafruit BNO055/IMU Control.ctl"/>
+			<Item Name="PodHealth.ctl" Type="VI" URL="../OLD/Type Defs/PodHealth.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -1739,8 +1739,6 @@ AddOutputFilter chunkFilter
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="BMP180 Config Options.ctl" Type="VI" URL="../Sensors/BMP180/BMP180 Config Options.ctl"/>
-			<Item Name="BMP180 Config Options.ctl" Type="VI" URL="../Tools/Sensors/BMP180/BMP180 Config Options.ctl"/>
 			<Item Name="Definition.ctl" Type="VI" URL="../Tools/Type Defs/Definition.ctl"/>
 			<Item Name="liblinxdevice.dll" Type="Document" URL="liblinxdevice.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
