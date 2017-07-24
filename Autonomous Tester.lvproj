@@ -145,6 +145,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Type Defs" Type="Folder" URL="../Type Defs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="acc and lasers.vi" Type="VI" URL="../acc and lasers.vi"/>
 		<Item Name="Actuate Only.vi" Type="VI" URL="../Tools/Sandboxes/Actuate Only.vi"/>
 		<Item Name="Autonomous Pod Shared Variables.lvlib" Type="Library" URL="../Autonomous Pod Shared Variables.lvlib"/>
 		<Item Name="Chassis" Type="myRIO Chassis">
