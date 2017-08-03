@@ -6,13 +6,16 @@ Done:
 - Pod health update & make video for SpaceX
 
 - Pressure Transducer readings
+- Power sensor integration
+
+- Thermopile integration
 
 
 To Do:
 
-- Power sensor integration
 
-- Thermopile integration
+
+- Stream data to HQ
 
 - iPad UI update
 
@@ -21,9 +24,6 @@ To Do:
 - HQ UI for competition
 
 - State machine
-
-- Stream data to HQ
-
 - Timestamp all sensor readings
 
 - Write Data to jumpdrive
