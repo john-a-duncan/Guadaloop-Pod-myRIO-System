@@ -1,29 +1,21 @@
-Release AutoBot v1
-
-
+Release AutoBot v2.2
 Done:
 
-- Pod health update & make video for SpaceX
+- Partial data logging
 
-- Pressure Transducer readings
-- Power sensor integration
-
-- Thermopile integration
+Issues:
+- I2C through myRIO acting funny. Not initializing power sensors. Example works.
 
 
 To Do:
-
-
-
+- State machine
+- HQ UI for competition
 - Stream data to HQ
 
 - iPad UI update
 
 - Communications heartbeat
 
-- HQ UI for competition
-
-- State machine
 - Timestamp all sensor readings
 
 - Write Data to jumpdrive
@@ -33,3 +25,10 @@ To Do:
 - Replay Run UI
 
 
+
+
+Help:
+- Stopping all the loops
+- UDP communications
+- Lasers
+  - Moving down to FPGA

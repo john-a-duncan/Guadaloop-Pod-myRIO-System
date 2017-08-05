@@ -17,6 +17,7 @@
 	<Property Name="varPersistentID:{82F31ECF-6D07-41E9-8E69-7E782D5511AB}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/2way3</Property>
 	<Property Name="varPersistentID:{8E1B72DA-C51E-4860-A4F9-505680315382}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/SensePower</Property>
 	<Property Name="varPersistentID:{92A097C1-1047-4F15-9E85-0ADA584134D0}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/MagBrake</Property>
+	<Property Name="varPersistentID:{A4D6D110-583B-49E2-BE14-C8215E8DC748}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/PodState</Property>
 	<Property Name="varPersistentID:{A9315070-4CEF-4A0E-88F5-00987EED6F36}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ToF3</Property>
 	<Property Name="varPersistentID:{B165CD5F-2A36-492A-BBFA-F17E957FE3BA}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/MP</Property>
 	<Property Name="varPersistentID:{B3EE83C4-52F0-47C1-8FB7-043599909DBB}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ToF4</Property>
@@ -1604,7 +1605,6 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="Pod Code.vi" Type="VI" URL="../Pod Code.vi"/>
-		<Item Name="timestamping.vi" Type="VI" URL="../Tools/Sandboxes/timestamping.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/boolean/boolean.llb/Boolean Trigger__ogtk.vi"/>
