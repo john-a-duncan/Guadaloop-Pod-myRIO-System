@@ -1,11 +1,8 @@
-Release AutoBot v2.2
+Release AutoBot v2.3
 Done:
 
-- Partial data logging
-
-Issues:
-- I2C through myRIO acting funny. Not initializing power sensors. Example works.
-
+- all sensors working except ToF4 (might be electrical)
+- I2C issues fixed
 
 To Do:
 - State machine
