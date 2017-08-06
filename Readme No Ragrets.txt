@@ -1,14 +1,17 @@
-Release AutoBot v2.3
+Release AutoBot v2.4
 Done:
 
-- all sensors working except ToF4 (might be electrical)
-- I2C issues fixed
+- State machine outline
 
 To Do:
-- State machine
+- State machine logic
 - HQ UI for competition
+- Hook in Pod health
 - Stream data to HQ
 
+- Logging
+	- Power readings
+	- Pressure readings
 - iPad UI update
 
 - Communications heartbeat
@@ -25,7 +28,20 @@ To Do:
 
 
 Help:
+- Auto start up
+- Syncing timestamp to myRIO from HQ
+- Set up new router
+- Wire everything in
 - Stopping all the loops
 - UDP communications
 - Lasers
   - Moving down to FPGA
+- What is our team ID?
+
+NOT doing:
+- Live video stream with USB endoscope cam
+
+- Replay Run UI
+
+
+

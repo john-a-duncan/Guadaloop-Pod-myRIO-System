@@ -1,38 +1,61 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
 	<Property Name="varPersistentID:{01A044A3-D055-45F6-91D1-E8B64CD91D16}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ToF5</Property>
+	<Property Name="varPersistentID:{096CA7B6-36B1-4E5D-8C70-E2E82CD1DFDA}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/BatteryCurrent</Property>
+	<Property Name="varPersistentID:{0CC9DFC7-69A7-4375-824B-BB23F48B418F}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/State:Braking</Property>
 	<Property Name="varPersistentID:{11DE049E-7CB2-4856-AD6D-960F769A3316}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/3way1Open</Property>
 	<Property Name="varPersistentID:{164847AC-990F-4FBD-81D8-FA3C2AD5370A}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ResetSensor</Property>
 	<Property Name="varPersistentID:{1697D468-9080-47D8-A8A4-9B7432446D3C}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/PneuAct</Property>
 	<Property Name="varPersistentID:{19E9B823-B0E4-4183-B54D-BB35E4DCE9C8}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/Cap</Property>
+	<Property Name="varPersistentID:{1A00E98F-185A-484F-A3F1-5F1DB74EEB3A}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/State:Initializing</Property>
 	<Property Name="varPersistentID:{1F84F587-8C37-4197-A82F-B346D2D5FC16}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ToF6</Property>
+	<Property Name="varPersistentID:{2399E71E-3E43-4052-8F8E-90087BA78390}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/BatteryVoltage</Property>
+	<Property Name="varPersistentID:{2AB7A1D7-1640-4CA8-A3C0-B4408F977FB5}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/Laser3</Property>
+	<Property Name="varPersistentID:{37B0EECF-EA6B-434F-8FDA-EF96E0191342}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/BatteryTemp</Property>
 	<Property Name="varPersistentID:{3EB17C29-A815-4921-B081-C4C28596D1C4}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ToF1</Property>
+	<Property Name="varPersistentID:{476FE26B-3FDB-4378-A6A8-4F2CD058630E}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/State:Post-Flight</Property>
 	<Property Name="varPersistentID:{4D88631F-D0FE-47FC-9FB6-2BD83D5C81C0}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ResetLaserCount</Property>
 	<Property Name="varPersistentID:{4F40905C-458B-4286-8B62-2165C0480AEB}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/FricBrake</Property>
+	<Property Name="varPersistentID:{54367832-98AE-4F9B-9DEE-809907831112}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/Laser2</Property>
 	<Property Name="varPersistentID:{58AA1938-1C9B-432C-A963-5FFC38AD1D1B}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/3way2Port</Property>
 	<Property Name="varPersistentID:{58C4B880-A855-41FA-8EB2-45EA1A76B573}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ToF4Distance</Property>
+	<Property Name="varPersistentID:{5F0DB624-9265-4218-B927-6BEE7E6E7124}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/HqTime</Property>
 	<Property Name="varPersistentID:{6439620E-DD33-4A2C-843E-EDD966D7F558}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/2way2</Property>
+	<Property Name="varPersistentID:{65C8DCC6-73D2-4FF6-8223-C0FF628EB4F5}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/State:Fault</Property>
+	<Property Name="varPersistentID:{68E42DA1-3A75-4D9D-BB8B-46989F7AF65B}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/State:Pushing</Property>
+	<Property Name="varPersistentID:{6E4D77C6-B8F4-4D44-9BA4-740DA39CD996}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/Laser4</Property>
 	<Property Name="varPersistentID:{7208E607-E6EB-4217-A98D-3E5C0544F3D1}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/3way2Open</Property>
+	<Property Name="varPersistentID:{74DE2C0B-C840-48CF-BC90-FEE63BA27D6F}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/Laser1</Property>
 	<Property Name="varPersistentID:{7D94A1EA-7860-4177-94D0-05FB9C15ED90}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/3way1Port</Property>
+	<Property Name="varPersistentID:{81D93A28-E4C3-42A5-A7D9-79205EBC7545}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/CriticalData</Property>
 	<Property Name="varPersistentID:{82F31ECF-6D07-41E9-8E69-7E782D5511AB}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/2way3</Property>
 	<Property Name="varPersistentID:{8E1B72DA-C51E-4860-A4F9-505680315382}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/SensePower</Property>
 	<Property Name="varPersistentID:{92A097C1-1047-4F15-9E85-0ADA584134D0}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/MagBrake</Property>
 	<Property Name="varPersistentID:{A4D6D110-583B-49E2-BE14-C8215E8DC748}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/PodState</Property>
 	<Property Name="varPersistentID:{A9315070-4CEF-4A0E-88F5-00987EED6F36}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ToF3</Property>
+	<Property Name="varPersistentID:{AFF09E49-7F79-47B6-B262-7650AD7E39BE}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/State:Coasting</Property>
+	<Property Name="varPersistentID:{B02C7FA0-73A0-43E5-A0A2-C8629921623D}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/sendNcData</Property>
 	<Property Name="varPersistentID:{B165CD5F-2A36-492A-BBFA-F17E957FE3BA}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/MP</Property>
 	<Property Name="varPersistentID:{B3EE83C4-52F0-47C1-8FB7-043599909DBB}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ToF4</Property>
+	<Property Name="varPersistentID:{B604F05C-EB18-467F-AED6-BBE6FEAF4ECC}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/TubePressure</Property>
 	<Property Name="varPersistentID:{B699A0C2-9F76-4EE3-AB65-2D197F8A001D}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/BP</Property>
 	<Property Name="varPersistentID:{B78B60A1-7363-4B21-A718-C95D2D36FB0C}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ToF8</Property>
+	<Property Name="varPersistentID:{B9E90EAF-0FD1-4E5D-8B6C-EC1B98395B72}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/PodTemp</Property>
 	<Property Name="varPersistentID:{BA1F78D7-DE8B-4E28-BDA3-09E0334BA88C}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/HP</Property>
 	<Property Name="varPersistentID:{BAA992A7-B4EE-4132-9163-26BD90644741}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ToF3Distance</Property>
+	<Property Name="varPersistentID:{BBFF9266-CCF0-4F33-BCF9-D96298B7A5DC}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/StripeCount2</Property>
+	<Property Name="varPersistentID:{BD6C09B1-9ED4-4C8F-9515-6E65441E97D2}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/State:Pre-Flight</Property>
 	<Property Name="varPersistentID:{BE3B17FC-2459-4E0A-AB01-710581370424}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/LP</Property>
 	<Property Name="varPersistentID:{C1A51359-6B61-40C6-80C7-4BFA88CA8AED}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/PositionRaw</Property>
 	<Property Name="varPersistentID:{C597635D-F74E-43EB-A4F6-DC6E272CA107}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ToF2Distance</Property>
 	<Property Name="varPersistentID:{C809AC04-B9B0-4CC7-84CF-31BCD9001B92}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ToF2</Property>
+	<Property Name="varPersistentID:{D16FC639-02FF-4BEF-A60E-5211CA8A2E6B}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/StripeCount1</Property>
 	<Property Name="varPersistentID:{D4CFBEFC-BC24-4540-809B-58017545EECC}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/2way1</Property>
 	<Property Name="varPersistentID:{EB54373A-46BF-43A5-B1B7-541546CB33B9}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ToFReadings</Property>
+	<Property Name="varPersistentID:{EB7938BC-1CBB-44B0-AA83-D855579B3A9C}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/State:Ready</Property>
 	<Property Name="varPersistentID:{F1C6693B-2EEB-4B4F-A5C4-CD2C00DD4179}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ToF7</Property>
 	<Property Name="varPersistentID:{F91E687E-F286-4AC2-AEE5-B45140A3EA69}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/ToF1Distance</Property>
+	<Property Name="varPersistentID:{FCB99C2A-90A4-4722-AAC0-11B53E9E0371}" Type="Ref">/NI-myRIO-1900-030d70ed/Autonomous Pod Shared Variables.lvlib/State:Venting</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -48,10 +71,15 @@
 		</Item>
 		<Item Name="HQ Main.vi" Type="VI" URL="../HQ Main.vi"/>
 		<Item Name="Pod Health Status Simulator.vi" Type="VI" URL="../Tools/Sandboxes/Pod Health Status Simulator.vi"/>
+		<Item Name="setHQtime.vi" Type="VI" URL="../Tools/setHQtime.vi"/>
 		<Item Name="TestPanel.vi" Type="VI" URL="../SubVIs/TestPanel.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="RT CPU Load.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/RT CPU Load.ctl"/>
+			</Item>
 			<Item Name="GrabNsvReadings.vi" Type="VI" URL="../SubVIs/GrabNsvReadings.vi"/>
-			<Item Name="IMU Control.ctl" Type="VI" URL="../../I2C-ToF-Tester/Sensors/IMU - Adafruit BNO055/IMU Control.ctl"/>
+			<Item Name="IMU Control.ctl" Type="VI" URL="../OLD/Sensors/IMU - Adafruit BNO055/IMU Control.ctl"/>
+			<Item Name="INA219 Measurements.ctl" Type="VI" URL="../Sensors/Power Sensor - Adafruit INA219/INA219 Measurements.ctl"/>
 			<Item Name="Pod Health Status.vi" Type="VI" URL="../Tools/Sandboxes/Pod Health Status.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
@@ -1714,6 +1742,7 @@ AddOutputFilter chunkFilter
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="Parse Scaling Constant Table.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Parse Scaling Constant Table.vi"/>
 				<Item Name="Raw To Scaled Value.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Raw To Scaled Value.vi"/>
 				<Item Name="Reentrant Mutex.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Reentrant Mutex.ctl"/>
@@ -1834,6 +1863,50 @@ AddOutputFilter chunkFilter
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Guadaloop</Property>
 				<Property Name="TgtF_productName" Type="Str">v2 actuators+ tof</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B0C1A15E-5EF2-41F7-8565-DA5216FDA5B6}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
+			</Item>
+			<Item Name="v3 all data sans logging" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{5FC2C4F5-6C3E-481F-A457-E8F1D621EA9E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{5F850D21-0830-43F0-A8FF-A9BE0ED6A347}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Guadaloop.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{BC05213C-484A-4011-A1D3-35F9BA652FDC}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">v3 all data sans logging</Property>
+				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/v3 all data sans logging</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{0B9883BA-752B-44DB-B357-A04934F6292C}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
+				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B905B4A6-5DD3-44E2-A3E6-A7112C4F178E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/NI-myRIO-1900-030d70ed/Pod Code.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Guadaloop</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">v3 all data sans logging</Property>
+				<Property Name="TgtF_internalName" Type="Str">v3 all data sans logging</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Guadaloop</Property>
+				<Property Name="TgtF_productName" Type="Str">v3 all data sans logging</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{56D89670-0134-4C6B-B0E1-BC803F0C3F5B}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 			</Item>
 		</Item>
