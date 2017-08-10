@@ -7,6 +7,15 @@ Done:
 - State machine outline
 
 
+- Power readings
+
+- Pressure readings
+
+- iPad UI update
+
+
+
+
 
 To Do:
 
@@ -24,27 +33,6 @@ To Do:
 
 - Calibration for ToFs
 - Stream data to HQ
-
-
-- Logging
-
-- Power readings
-
-- Pressure readings
-
-- iPad UI update
-
-
-
-- Write Data to jumpdrive
-
-
-- Live video stream with USB endoscope cam
-
-
-- Replay Run UI
-
-
 
 
 
@@ -80,3 +68,6 @@ NOT doing:
 
 
 
+
+- Write Data to jumpdrive
+- Logging
