@@ -32,6 +32,7 @@ To Do:
 - HQ UI for competition
 
 - Calibration for ToFs
+- Detect emag engagement through dip in current
 - Stream data to HQ
 
 
